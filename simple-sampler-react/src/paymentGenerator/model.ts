@@ -1,24 +1,21 @@
-type CompanyEntity = {
-    Name: string,
-    Address: string
-    Country: string // ISO2 country code
-}
+export type CompanyEntity = {
+  Name: string;
+  Address: string;
+  Country: string; // ISO2 country code
+};
 
-type PersonEntity = {
-    Name: string,
-    Surname: string,
-    FullName: string,
-    Locality: string // Latvia, Lithuania, Estonia, Russia
-}
+export type PersonEntity = {
+  Id: string;
+  Locality: string; // Latvia, Lithuania, Estonia, Russia
+  Type: string;
+  Value: string;
+};
 
-type PersonSampleTable = {
-    Id: number,
-    Country: string,
-    Type: "Given" | "Surname",
-    BaseForm: string,
-    Variant: string
-}
-
-type CompanySampleTable = {
-
-}
+// Generate list of payment files 
+// Download each
+// Download all zip
+// Download all (files)
+// Preview each
+// Modify in preview
+//
+// Payment builder and generator navigation through left sidebar
