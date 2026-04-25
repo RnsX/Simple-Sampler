@@ -19,6 +19,9 @@ The app has two main modes:
 - Generate fresh IDs for payment identifier fields
 - Generate IBAN numeric parts while keeping the country/prefix intact
 
+<img width="1317" height="998" alt="image" src="https://github.com/user-attachments/assets/2e14030b-7b95-4af9-ba69-7e7daa9a5548" />
+
+
 ### Payment Generator
 
 - Load company data from CSV
@@ -35,6 +38,9 @@ The app has two main modes:
 - Download each payment as JSON
 - Download each payment as SEPA XML
 - Download all generated payments in a single ZIP archive
+
+<img width="1314" height="1109" alt="image" src="https://github.com/user-attachments/assets/7f953730-d867-47e1-a440-cbc8cdf34b2c" />
+
 
 ## SEPA Model
 
