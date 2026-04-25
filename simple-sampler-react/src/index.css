@@ -1,0 +1,129 @@
+:root {
+  --gray-1: #fcfcfd;
+  --gray-2: #f9f9fb;
+  --gray-3: #f0f0f3;
+  --gray-4: #e8e8ec;
+  --gray-5: #e0e1e6;
+  --gray-6: #d9d9e0;
+  --gray-7: #cdced6;
+  --gray-8: #b9bbc6;
+  --gray-9: #8b8d98;
+  --gray-10: #80838d;
+  --gray-11: #60646c;
+  --gray-12: #1c2024;
+
+  --accent-3: #eef1ff;
+  --accent-6: #bcc8ff;
+  --accent-7: #a5b4fc;
+  --accent-8: #8098ff;
+  --accent-9: #3e63dd;
+  --accent-11: #3a5bc7;
+
+  --color-background: #fcfcfd;
+  --color-panel-translucent: rgba(255, 255, 255, 0.82);
+  --color-surface: #ffffff;
+  --focus-ring: rgba(62, 99, 221, 0.18);
+
+  --text: var(--gray-11);
+  --text-h: var(--gray-12);
+  --muted: var(--gray-11);
+  --bg: var(--color-background);
+  --panel: var(--color-panel-translucent);
+  --field: var(--color-surface);
+  --border: var(--gray-6);
+  --code-bg: var(--gray-2);
+  --accent: var(--accent-9);
+  --ring: var(--focus-ring);
+  --shadow-1:
+    0 1px 2px rgba(28, 32, 36, 0.04),
+    0 8px 24px rgba(28, 32, 36, 0.04);
+  --shadow-2:
+    0 1px 2px rgba(28, 32, 36, 0.08),
+    0 1px 1px rgba(28, 32, 36, 0.04);
+
+  --sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial,
+    sans-serif;
+  --heading: var(--sans);
+  --mono:
+    "SFMono-Regular", ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
+    Consolas, monospace;
+
+  font: 15px/1.5 var(--sans);
+  letter-spacing: normal;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-background);
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top, rgba(62, 99, 221, 0.05), transparent 28%),
+    linear-gradient(180deg, #fcfcfd 0%, #f8fafc 100%);
+}
+
+#root {
+  width: 1280px;
+  max-width: 100%;
+  min-height: 100svh;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: var(--text-h);
+  font-family: var(--heading);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: clamp(34px, 4.4vw, 52px);
+  line-height: 1.02;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+p {
+  margin: 0;
+}
+
+code,
+pre {
+  font-family: var(--mono);
+  color: var(--text-h);
+}
+
+code {
+  padding: 0.12rem 0.35rem;
+  border: 1px solid var(--gray-6);
+  border-radius: 6px;
+  background: var(--gray-2);
+  font-size: 0.95em;
+}
+
+::selection {
+  background: rgba(62, 99, 221, 0.18);
+}

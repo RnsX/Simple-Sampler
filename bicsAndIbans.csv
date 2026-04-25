@@ -1,0 +1,28 @@
+Country,Bank Name,BIC,IBAN Prefix,IBAN Bank Identifier / Example
+Latvia,Citadele banka,PARXLV22,LV,PARX
+Latvia,Swedbank Latvia,HABALV22,LV,HABA
+Latvia,SEB banka Latvia,UNLALV2X,LV,UNLA
+Latvia,Luminor Bank Latvia,RIKOLV2X,LV,RIKO
+Latvia,BlueOrange Bank,CBBRLV22,LV,CBBR
+Lithuania,Swedbank AB,HABALT22,LT,73000
+Lithuania,SEB Bankas,CBVILT2X,LT,70440
+Lithuania,Luminor Bank,AGBLLT2X,LT,40100
+Lithuania,Šiaulių bankas,CBSBLT26,LT,71800
+Lithuania,Revolut Bank,REVOLT21,LT,32500
+Estonia,Swedbank AS,HABAEE2X,EE,22
+Estonia,SEB Pank,EEUHEE2X,EE,10
+Estonia,Luminor Bank,RIKOEE22,EE,17
+Estonia,LHV Bank,LHVBEE22,EE,77
+Estonia,Citadele Estonia,PARXEE22,EE,12
+Germany,Deutsche Bank,DEUTDEFF,DE,50070010
+Germany,Commerzbank,COBADEFF,DE,37040044
+Germany,N26,NTSBDEB1,DE,10011001
+France,BNP Paribas,BNPAFRPP,FR,30004
+France,Société Générale,SOGEFRPP,FR,30003
+France,Crédit Agricole,AGRIFRPP,FR,20041
+Netherlands,ING Bank,INGBNL2A,NL,INGB
+Netherlands,ABN AMRO,ABNANL2A,NL,ABNA
+Netherlands,Rabobank,RABONL2U,NL,RABO
+Sweden,Swedbank,SWEDSESS,SE,800
+Sweden,SEB Bank,ESSESESS,SE,500
+Sweden,Handelsbanken,HANDSESS,SE,600

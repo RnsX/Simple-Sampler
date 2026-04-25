@@ -1,0 +1,85 @@
+{
+  "messageId": "MSG-20260425-0001",
+  "creationDateTime": "2026-04-25T10:15:30Z",
+  "numberOfTransactions": 1,
+  "controlSum": 125.50,
+
+  "paymentInformationId": "PMT-0001",
+  "paymentMethod": "TRF",
+  "serviceLevel": "SEPA",
+  "localInstrument": "INST",
+  "requestedExecutionDateTime": "2026-04-25T10:15:35Z",
+
+  "debtor": {
+    "name": "John Doe",
+    "postalAddress": {
+      "country": "LV",
+      "townName": "Riga"
+    }
+  },
+  "debtorAccount": {
+    "iban": "LV80HABA0551031234567",
+    "currency": "EUR"
+  },
+  "debtorAgent": {
+    "bic": "HABALV22"
+  },
+
+  "ultimateDebtor": {
+    "name": "ACME Holdings Ltd",
+    "organisationId": {
+      "lei": "5493001KJTIIGC8Y1R12"
+    }
+  },
+
+  "creditor": {
+    "name": "Jane Smith",
+    "postalAddress": {
+      "country": "DE",
+      "townName": "Berlin"
+    }
+  },
+  "creditorAccount": {
+    "iban": "DE89370400440532013000",
+    "currency": "EUR"
+  },
+  "creditorAgent": {
+    "bic": "COBADEFF"
+  },
+
+  "ultimateCreditor": {
+    "name": "Example Marketplace GmbH"
+  },
+
+  "amount": {
+    "instructedAmount": {
+      "currency": "EUR",
+      "amount": 125.5
+    }
+  },
+
+  "chargeBearer": "SLEV",
+  "purposeCode": "GDDS",
+
+  "remittanceInformation": {
+    "unstructured": [
+      "Invoice 2026-00045"
+    ],
+    "structured": [
+      {
+        "creditorReference": "RF18539007547034"
+      }
+    ]
+  },
+
+  "regulatoryReporting": {
+    "details": [
+      "Goods purchase"
+    ]
+  },
+
+  "instructionId": "INSTR-0001",
+  "endToEndId": "E2E-0001",
+  "transactionId": "TX-0001",
+  "settlementPriority": "HIGH"
+}
