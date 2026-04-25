@@ -34,7 +34,11 @@ function parseCsv(text: string): string[][] {
     .split(/\r?\n/)
     .map((line) => line.trim())
     .filter(Boolean)
-    .map((line) => line.split(",").map((cell) => cell.trim()));
+    .map((line) =>
+      line
+        .split(",")
+        .map((cell) => cell.trim().replaceAll('"', "")),
+    );
 }
 
 function parseCompaniesCsv(text: string): CompanyEntity[] {
